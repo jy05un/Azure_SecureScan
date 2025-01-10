@@ -20,7 +20,7 @@ This tool helps automate and streamline Azure security diagnostics by following 
 
 ## Required Libraries Installation
 
-pip install requirements.txt
+    pip install requirements.txt
 
 ## How to Use
 
@@ -28,7 +28,7 @@ pip install requirements.txt
     Set up the Azure App Registration and update azure_credentials.json with the appropriate values.
     Run the script to begin diagnostics.
 
-python automation.py
+    python automation.py
 
 ## Note
 
