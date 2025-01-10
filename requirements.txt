@@ -1,0 +1,27 @@
+# Creating a requirements.txt content based on the mentioned libraries
+requirements = """
+azure-identity
+azure-mgmt-authorization
+msal
+azure-mgmt-resource
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-storage
+azure-storage-blob
+azure-mgmt-sql
+azure-keyvault-keys
+azure-mgmt-keyvault
+azure-mgmt-monitor
+azure-mgmt-resource
+azure-mgmt-recoveryservices
+azure-mgmt-recoveryservicesbackup
+requests
+tqdm
+"""
+
+# Saving the requirements to a file
+file_path = "/mnt/data/requirements.txt"
+with open(file_path, "w") as file:
+    file.write(requirements)
+
+file_path
